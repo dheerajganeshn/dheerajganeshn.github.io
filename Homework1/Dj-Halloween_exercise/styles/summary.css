@@ -1,0 +1,160 @@
+html {
+    font-family:sans-serif;
+    background-image: url(../images/bats.gif);
+}
+header{
+    border-bottom: 2px solid black;
+    background-image: linear-gradient(45deg, white 0%, #FFA500 75%, black 100%);
+}
+.h1{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding: 8px 0px 0px 2px;
+    font-size: 34px;  
+}
+.h2 {
+    margin: 1px;
+    padding-bottom: 10px;
+}
+img {
+    float: left;
+    padding: 5px 8px 8px 8px;
+    width: 70px;
+    height: auto;
+}
+ul {
+    font-weight: bold;
+    margin-right: 0px;
+}
+li {
+    padding-bottom: 3px;
+    font-size: 15px;
+}
+a {
+    color: black;
+    font-weight: normal;   
+}
+body {
+	width: 800px;
+    margin: 1em auto;
+	border: 0px 2px 2p 7px solid black;
+    background-color: white;
+	box-shadow: 2px 8px 10px 10px black;
+}
+footer {
+    border-top: 2px solid black;
+    padding: 5px;
+    background-image: linear-gradient(45deg, black 0%, #FFA500 25%, white 100%);
+    clear: both;
+    text-align: center;
+    font-size: 14px;
+}
+#navigation ul {
+	list-style-type: none;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+#navigation ul li {
+	float: left;
+	padding: 0;
+}
+#navigation ul li a {
+	display: block;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	padding: 0.5em 0;
+	font-size: 100%;
+	width: 160px;
+	text-align: center;
+	font-weight: 195;
+}
+#navigation ul li a.active {
+	color: #FFA500;
+}
+#navigation ul li a:hover, #navigation ul li a:focus {
+	background-color: gray;
+}
+#navigation ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#navigation ul ul li {
+	float: none;
+	position: relative;
+	font-size: 90%;
+}
+#navigation ul li:hover > ul {
+    display:block;
+}
+#navigation > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+aside ul {
+    float: left;
+	width: 122px;
+	padding-right: 1em;
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 0px; 
+}
+.subnav ul li {
+    width: 100px;
+    height: 36px;
+	margin-bottom: 0.5em;
+	border: 3px solid black;
+	padding: 0px;	
+}
+.subnav ul li a {
+    display: block ;
+	text-decoration: none;
+	padding: 0.25em 0.5em;
+	color: black;
+	font-size: 110%;
+	background-color: #FFA500;
+	font-weight: bold;
+    height: 27px;
+}
+table {
+	width: 100%;
+    height: 1em;
+    border-collapse: collapse;
+}
+td:nth-of-type(2) {
+	background-color:#F5DEB3;
+	text-align: right;
+	width: 17%;
+}
+th {
+ 	text-align: left;
+ }
+thead th:nth-child(3) {
+	text-align: right;
+}
+thead th {
+	color: gray;
+	padding-bottom: 0.5em;
+}
+th, td {
+	padding: 0.35em 0.25;
+	padding-right: 0.25em;
+}
+tbody th {
+	vertical-align: top;
+}
+figure {
+	padding: 1em 1em;
+	width: 60%;
+    margin-left: 148px;
+}
+figcaption {
+	display: block;
+	text-align: center;
+	font-size: 165%;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+}
