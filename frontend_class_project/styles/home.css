@@ -1,0 +1,249 @@
+html{
+    font-family:sans-serif;
+
+
+    }
+header{
+
+    padding-top: 0.01em;
+    background-color:orange;
+    border-bottom-style: solid;
+    border-bottom-color: brown;
+
+}
+header img{
+   
+    float:left;
+    height:90px;
+
+}
+h2{
+    margin-left: 5em;
+    margin-top: 1.5em;
+    margin-right:18em;
+    font-weight: 700;
+    font-variant: small-caps;
+    text-shadow:20px 10px 10px 10px;
+
+}
+.topulclass{
+    margin-left: 30em;
+    color: black;
+    font-size: 90%;
+
+}
+.topulclass li{
+
+    color:black;
+    display: inline;
+   margin-left:2em;
+}
+
+.topulclass a{
+    color:white;
+     padding:0.2em 0.2em 0.2em 0.2em;
+}
+.topulclass a:hover{
+    background-color: red;
+
+
+
+}
+.topnav{
+    overflow: hidden;
+    background-color:orange;
+
+}
+.topnav a{
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 35px;
+    margin-left: 1em;
+}
+
+.topnav a:hover{
+    background-color:greenyellow;
+}
+.topnav a.active{
+    color: yellow;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+     padding: 5px 5px 5px 0px;
+}
+
+.dropdown {
+    padding: 20px 35px;
+  float: left;
+ overflow: hidden;
+}
+
+.dropdown:hover{
+    background-color: greenyellow;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 6px 23px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: greenyellow;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 12px 10px 10px;
+    margin-left: 0.1em;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color:grey;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.relative
+{
+    position: relative;
+    left: 10%;
+    top: 50%;
+}
+
+body{
+    background-color:white;
+
+}
+main{
+   width:1280px;
+}
+leftpane1
+{
+    width=100px;
+    float:left;
+}
+#rellinks{
+    margin-left: 2em;
+    margin-bottom:0.2em;
+    color: red;
+    font-weight: bold;
+}
+
+.list-group{
+    list-style-type: none;
+}
+.list-group li{
+    padding:0.5em 0 0.2em 0;
+    margin-bottom: 0.3em;
+    border:light grey;
+    border-style:groove;
+}
+.list-group li a{
+    color:black;
+
+}
+.list-group-item-apply {
+    padding:0.5em 9em 0.2em 0.5em;
+    background-color: orangered;
+    color:white;
+}
+.list-group .list-group-item-apply {
+    color:white;
+
+}
+
+.scandcov{
+     margin-left: 20em;
+    padding-left:8em;
+    padding-top: 2.5em;
+
+
+}
+.scandcov li {
+    display:inline;
+
+}
+
+.scandcov li a{
+    text-decoration: none;
+    color: white;
+     border-radius: 6px;
+    padding:1em 1em 1em 0.5em;
+    margin-right: 1.5em;
+    background-color: orangered;
+}
+
+#with{
+    margin-left: 26em;
+    padding-top: 1em;
+}
+
+
+#cn{
+    margin-left: 13.5em;
+}
+
+#cua{
+
+margin-left:5em;
+color: dodgerblue;
+}
+
+#cua:hover{
+    color:orangered;
+}
+#cup{
+    margin-left:26em;
+    border-bottom-color: darkgrey;
+    padding-bottom:1em;
+    border-bottom-style: solid;
+}
+
+#AUMnews{
+    margin-left: 22em;
+     padding-bottom: 3em;
+}
+
+#AUMnews a{
+    color:dodgerblue;
+}
+#AUMnews a:hover{
+    color:orangered;
+
+}
+
+footer{
+
+    text-align: center;
+   background-color: orange;
+    color: black;
+    padding-top: 1em;
+    border-bottom-style: solid;
+    border-color:black;
+    padding-bottom:0.4em;
+    padding-right:8em;
+/*    padding-right:17em;*/
+}
+footer h4{
+    color:aqua;
+    margin-top: 2em;
+}

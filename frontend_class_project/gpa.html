@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Welcome to AUM</title>
+     <link rel="shortcut icon" href="images/aumf.jpg">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/gpa.css">
+     <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+<body>
+  <header>
+      <img src="images/AUM.jpg" width=250px height=90px>
+
+     <a href="https://youtu.be/vWtEFdP8NXk" class="topnav-right">AUM tour</a>&nbsp;&nbsp;&nbsp;
+
+<div class="topnav">
+    <a class="active" href="Home.html">Home</a>
+    <a href="AcademicPrograms.html">Academics</a>
+       <div class="dropdown">
+           <button class="dropbtn">Departments
+       </button>
+       <div class="dropdown-content">
+       <a href="computerscience.html">Computer Science</a>
+      <a href="#">MIS</a>
+      <a href="#">Cyber Security</a>
+
+       </div>
+       </div>
+    <a href="links/About.html">About US</a>
+    <a href="Contact_us.html">Contact Us</a>
+</div>
+     </header>
+
+<main>
+    <leftpane1>
+
+        <h3 id="rellinks">Events</h3>
+        <ul class="list-group">
+        <li><a class="list-group-item" href="/admissions/">Admissions</a></li>
+        <li><a class="list-group-item" href="/student Affairs">Student Affairs</a></li>
+       <li><a class="list-group-item" href="/Athletics">Athletics</a></li>
+        <li><a class="list-group-item" href="/admissions/scholarships-and-financial-aid">Scholorships</a></li>
+        <li><a class="list-group-item" href="/Directory">Directory</a></li>
+
+    </ul>
+    <h3 id="rellinks">Related Links</h3>
+    <ul class="list-group">
+        <li><a class="list-group-item" href="gpa.html">GPA calculator</a></li>
+        <li><a class="list-group-item" href="teachingAssistantship/teachingAssistant.html">Teaching Assistantship</a></li>
+        <li><a class="list-group-item" href="/academics/">Opportunity in AUM</a></li>
+        <li><a class="list-group-item" href="/admissions/scholarships-and-financial-aid">Campus Life</a></li>
+        <li><a class="list-group-item" href="/campus-life">Interactive Map</a></li>
+  </ul>
+    </leftpane1>
+    <br>
+     <a href="links/"><img class="relative" src="images/gpacal.jpg" width="780" height="200"></a>
+
+
+<div>
+    <br/>
+    <label><font color = "green"><h1 id="tah">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        GPA Calculator </h1><br/><br/></font>
+        <font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your Name:</font></label>
+   <input type="text" id="name" placeholder="enter your name"><br><br>
+   <center>
+<table cellpadding="5"
+cellspacing="2">
+<th></th>
+<th>GradeLetter</th>
+<th>credits&nbsp;&nbsp;</th>
+<tr>
+<td>course 1</td>
+<td><input type=text size=5 id="gr1" align=top
+maxlength=5></td>
+<td><input type=text size=5 id="cr1" align=top
+maxlength=5></td>
+</tr>
+<tr>
+<td>course 2</td>
+<td><input type=text size=5 id="gr2" align=top
+maxlength=5></td>
+<td><input type=text size=5 id="cr2" align=top
+maxlength=5></td>
+</tr>
+<tr>
+<td>course 3</td>
+<td><input type=text size=5 id="gr3" align=top
+maxlength=5></td>
+<td><input type=text size=5 id="cr3" align=top
+maxlength=5></td>
+</tr>
+<tr>
+<td>course 4</td>
+<td><input type=text size=5 id="gr4" align=top
+maxlength=5></td>
+<td><input type=text size=5 id="cr4" align=top
+maxlength=5></td>
+</tr>
+<tr>
+<td>course 5</td>
+<td><input type=text size=5 id="gr5" align=top
+maxlength=5></td>
+<td><input type=text size=5 id="cr5" align=top
+maxlength=5></td>
+</tr>
+<tr>
+<td>course 6</td>
+<td><input type=text size=5 id="gr6" align=top
+maxlength=5></td>
+<td><input type=text size=5 id="cr6" align=top
+maxlength=5></td>
+</tr>
+<tr>
+<td>course 7</td>
+<td><input type=text size=5 id="gr7" align=top
+maxlength=5></td>
+<td><input type=text size=5 id="cr7" align=top
+maxlength=5></td>
+</tr>
+<tr>
+<td>course 8</td>
+<td><input type=text size=5 id="gr8" align=top
+maxlength=5></td>
+<td><input type=text size=5 id="cr8" align=top
+maxlength=5></td>
+</tr>
+<tr align=center>
+<td colspan=3>&nbsp;&nbsp;&nbsp;<input type="button" value="submit"
+name="calcbutton"
+onclick="gpacalc()"></td>
+</tr>
+</table>
+</center>
+
+<script lang="javascript" >
+
+function gpacalc()
+{
+
+var gr = new Array(9);
+var cr = new Array(9);
+var ingr = new Array(5);
+var incr = new Array(5);
+
+var grcount = 10;
+gr[0] = "A+";
+cr[0] = 5;
+gr[1] = "A";
+cr[1] = 4;
+gr[2] = "A-";
+cr[2] = 3.66;
+gr[3] = "A+";
+cr[3] = 3.33;
+gr[4] = "A";
+cr[4] = 3;
+gr[5] = "A-";
+cr[5] = 2.66;
+gr[6] = "A+";
+cr[6] = 2.33;
+gr[7] = "C";
+cr[7] = 2;
+gr[8] = "C-";
+cr[8] = 1.66;
+gr[9] = "D";
+cr[9] = 1;
+gr[10] = "F";
+cr[10] = 0;
+
+ingr[0] = document.getElementById("gr1").value;
+ingr[1] = document.getElementById("gr2").value;
+ingr[2] = document.getElementById("gr3").value;
+ingr[3] = document.getElementById("gr4").value;
+ingr[4] = document.getElementById("gr5").value;
+ingr[5] = document.getElementById("gr6").value;
+ingr[6] = document.getElementById("gr7").value;
+ingr[7] = document.getElementById("gr8").value;
+incr[0] = document.getElementById("cr1").value;
+incr[1] = document.getElementById("cr2").value;
+incr[2] = document.getElementById("cr3").value;
+incr[3] = document.getElementById("cr4").value;
+incr[4] = document.getElementById("cr5").value;
+incr[5] = document.getElementById("cr6").value;
+ingr[6] = document.getElementById("cr7").value;
+ingr[7] = document.getElementById("cr8").value;
+
+// calculate gpa
+var allgr =0;
+var allcr = 0;
+var gpa = 0;
+     var validgrcheck = 0;
+for (var x = 0; x < 5 + 3; x++)
+        {
+        if (ingr[x] == "") break;
+
+        for (var xx = 0; xx <= grcount; xx++)
+                {
+                if (ingr[x] == gr[xx])
+                        {
+                        allgr = allgr + (parseInt(incr[x],10) * cr[xx]);
+                        allcr = allcr + parseInt(incr[x],10);
+                        validgrcheck = 1;
+                        break;
+                        }
+                }
+        if (validgrcheck == 0)
+                {
+                alert("error- could not recognize the grade entered for class " + eval(x +  1) + ". please use standard college grades in the form of a a- b+ ...f.");
+                return 0;
+                }
+        }
+
+// this if-check prevents a divide by zero error
+if (allcr == 0)
+        {
+        alert("error- you did not enter any credit values! gpa = n/a");
+        return 0;
+        }
+
+gpa = allgr / allcr;
+
+var name = document.getElementById("name").value;
+alert("Hello " +name+" ,your GPA is "+eval(gpa));
+
+return 0;
+}
+
+//-->
+
+</script>
+
+  </div>
+
+    </main>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+		<footer class="foot">
+						<p> &copy; 2021 Dheeraj Ganesh Nedunoori <br/>
+						SID:S00388135</p>
+						 <p id="email"><u>dnedunoo@aum.edu</u></p>
+						<p id="contact">#3342218343</p>
+		</footer>  
+</body>
+</html>
